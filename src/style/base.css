@@ -24,7 +24,7 @@ button {
     --cinza-claro: #999;
     --cinza-escuro: #666;
     --cinza: rgba(196, 196, 196, 0.2);
-    --gradiente: linear-gradient(53deg, #07413b 0%, #04331d 50%, #15803c 100%);
+    --gradiente: linear-gradient(53deg, #07411f 0%, #04331d 50%, #106a31 100%);
 }
 
 * {
