@@ -16,12 +16,15 @@ button {
 :root {
     --cor-texto-principal: #ffffff;
     --fonte-textos: 'Open Sans', sans-serif;
+    --verde-escuro: #032716;
+    --verde-medio: #7ed957;
+    --verde-claro: #c1ff72; 
     --azul-neon: #2BDEFD;
     --azul-fundo: #01080E;
     --cinza-claro: #999;
     --cinza-escuro: #666;
     --cinza: rgba(196, 196, 196, 0.2);
-    --gradiente: linear-gradient(53deg, #072041 0%, #041833 50%, #154580 100%);
+    --gradiente: linear-gradient(53deg, #07413b 0%, #04331d 50%, #15803c 100%);
 }
 
 * {
@@ -46,7 +49,7 @@ main {
 /*Aside*/
 
 .menu-lateral {
-    background-color: var(--azul-fundo);
+    background-color: var(--verde-escuro);
     padding: 2.5rem .5rem 0;
     font-weight: 400;
     letter-spacing: 0.25rem;
@@ -71,7 +74,7 @@ main {
 }
 
 .ativo {
-    color: var(--azul-neon);
+    color: var(--verde-claro);
 }
 
 .menu-lateral__link button img {
@@ -166,7 +169,7 @@ main {
  
 /*Navbar*/
 .navbar {
-    background-color: var(--azul-fundo);
+    background-color: var(--verde-escuro);
     opacity: 0.9;
     position: fixed;
     bottom: 0;
