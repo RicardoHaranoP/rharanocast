@@ -7,3 +7,16 @@
 .secao-horizontal, .secao-vertical {
     grid-template-rows: 70px auto;
 }
+
+.secao-horizontal .secao__cartoes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(80%/2),1fr));
+    gap: 1.25rem;
+}
+
+@media only screen and (min-width: 1024px) {
+    .secao-horizontal .secao__cartoes {
+        grid-template-columns: repeat(auto-fit, minmax(min(80%/3),1fr));
+    }
+}
+
