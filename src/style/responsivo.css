@@ -1,4 +1,5 @@
 @media only screen and (max-width: 1023px) {
+
     .menu-lateral,
     .rodape,
     .cabecalho__botao,
@@ -16,18 +17,23 @@
 
     .navbar {
         display: block;
-    }   
+    }
 
     .cabecalho {
         justify-self: center;
     }
 
+    .secao-horizontal .cartao {
+        column-gap: .5rem;
+    }
+
     .secao-horizontal .cartao__imagem {
         height: 4.58rem;
     }
- 
+
     .secao-horizontal .cartao__titulo {
         font: 700 14px/20px Open Sans, sans-serif;
+        align-self: center;
     }
 
     .secao-vertical .cartao {
@@ -55,6 +61,10 @@
 
     .navbar {
         display: none;
+    }
+
+    .secao-horizontal .secao__cartoes {
+        grid-template-columns: repeat(auto-fit, minmax(min(80%/3), 1fr));
     }
 
     .secao-horizontal .cartao__imagem {
@@ -85,6 +95,10 @@
 
     .menu-lateral {
         width: 228px;
+    }
+
+    .secao-horizontal .secao__cartoes {
+        grid-template-columns: repeat(auto-fit, minmax(min(80%/3), 1fr));
     }
 
 }
